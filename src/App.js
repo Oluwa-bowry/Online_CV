@@ -1,7 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import About from './components/About';
+import Webpage from './components/Webpage';
 //import UserInput from './UserInput/UserInput';
 //import UserOutput from './UserOutput/UserOutput';
 // import { Component } from 'react/cjs/react.production.min';
@@ -9,9 +9,8 @@ import About from './components/About';
 
 export default function App() {
   return (
-    <main className = "h-screen bg-gray-200 ">
-      <About />
-      
+    <main className = "bg-gray-200 ">
+      <Webpage />
       <body class="bg-gray-600 flex justify-center items-center h-screen">
       <div class="w-2/3  break-words bg-white shadow-lg rounded-lg
       overflow-hidden">
