@@ -10,7 +10,9 @@ export default function Project () {
       <div className="container">
           {projects.map((project) => (
             <div className="container bg-white justify-center p-4 mb-4 overflow-hidden items-center shadow-lg rounded-lg break-word" key={project.id}>
+                <small>{project.programmingLanguage}</small>
                 <h4>{project.title}</h4>
+                <small>{project.description}</small>
             </div>          
           ))}        
         </div>

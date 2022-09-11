@@ -55,6 +55,9 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
+    description: "In this project, I work with HTML and CSS to create a responsive\
+    page. The design is from devchallenge.io. The blog entails the \
+    step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -62,6 +65,9 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
+    description: "In this project, I work with HTML and CSS to create a responsive\
+    page. The design is from devchallenge.io. The blog entails the \
+    step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -69,6 +75,9 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
+    description: "In this project, I work with HTML and CSS to create a responsive\
+    page. The design is from devchallenge.io. The blog entails the \
+    step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -76,6 +85,9 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
+    description: "In this project, I work with HTML and CSS to create a responsive\
+    page. The design is from devchallenge.io. The blog entails the \
+    step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -83,6 +95,9 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
+    description: "In this project, I work with HTML and CSS to create a responsive\
+    page. The design is from devchallenge.io. The blog entails the \
+    step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -90,6 +105,53 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
+    description: "In this project, I work with HTML and CSS to create a responsive\
+    page. The design is from devchallenge.io. The blog entails the \
+    step by step processs involving in making a cheesecake.",
+  },
+];
+
+export const hobbies = [
+  {
+    image: "",
+    title: "",
+    description: "",
+  },
+  {
+    image: "",
+    title: "",
+    description: "",
+  },
+  {
+    image: "",
+    title: "",
+    description: "",
+  },
+  {
+    image: "",
+    title: "",
+    description: "",
+  },
+];
+
+export const blogs = [
+  {
+    url: "",
+    title: "How to Organize your CSS",
+    description: "",    
+    image: "",
+  },
+  {
+    url: "",
+    title: "React and JavaScript",
+    description: "",    
+    image: "",
+  },
+  {
+    url: "",
+    title: "React and JavaScript",
+    description: "",    
+    image: "",
   },
 ];
 

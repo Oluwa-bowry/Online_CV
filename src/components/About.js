@@ -5,7 +5,7 @@ import Project from './Project';
 
 import Skills from './Skills';
 import Design from './Design';
-
+import Blog from './Blog';
 
 export default function About () {
   return (
@@ -21,6 +21,9 @@ export default function About () {
 
       <div className=" display-block item center container">
         <Project  />
+      </div>
+      <div className=" display-block item center container">
+        <Blog  />
       </div>
     </section>
   )
