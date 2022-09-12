@@ -10,7 +10,7 @@ export default function Design() {
         {designs.map((design) =>(
           <div className="container flex">
             <div className="w-1/4 text-left text-sm"><span className="mr-8 text-left">{design.name}</span> </div>
-            <div className="w-1/2 ml-8 justify-right item-right"> <ProgressBar bgcolor="bg-blue-500" progress={design.progress} height={10} />   </div>
+            <div className="w-1/2 ml-8 justify-right item-right"> <ProgressBar bgcolor="#99ccff" progress={design.progress} height={10} />   </div>
           </div>
         ))}
     </div>

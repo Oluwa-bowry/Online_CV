@@ -6,18 +6,17 @@ export default function Details() {
   return (
     <div className="bg-white m-4 w-full flex flex-col text-left overflow-hidden justify-center shadow-lg items-center rounded-lg break-word p-4">          
       <div className='mb-6'>
-      
-      <figure className="">
-          <img src ="./photo3.png" className="rounded-lg h- sm:mx-0 sm:shrink-0"/>
-          <figcaption>
-            <h2 className="font-bold text-gray-700 text-2xl  mt-2 ">Oluwabori Ige</h2>
-            <p className='text-sm text-gray-500 pb-4'>Front-end developer</p>
-          </figcaption>
-        </figure>
         {details.map((detail) => (
           <div>
-            <a href={detail.mail} className="block text-sm text-gray-500">{detail.mail}</a>
-            <a href={detail.mail} className='text-sm text-gray-500'>{detail.number}</a>
+              <figure className="">
+              <img src ={detail.image} className="rounded-lg h- sm:mx-0 sm:shrink-0"/>
+              <figcaption>
+                <h2 className="font-bold text-gray-700 text-2xl  mt-2 ">Oluwabori Ige</h2>
+                <p className='text-sm text-gray-500 pb-4'>Front-end developer</p>
+              </figcaption>
+          </figure>
+          <a href={detail.mail} className="block text-sm text-gray-500">{detail.mail}</a>
+          <a href={detail.mail} className='text-sm text-gray-500'>{detail.number}</a>
           </div>
                    
         ))}

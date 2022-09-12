@@ -74,7 +74,7 @@ export const experiences = [
 
 export const projects = [
   {
-    image: 'https://randomuser.me/api/portraits/men/94.jpg',
+    image: 'https://lh3.googleusercontent.com/z38AhT0K0rpK-DMhHQiBdmNB0DbIIhdK1F9Qnf21tF_KtlmhoZhaRnFris_w_KRROSa2SKceuHFzFTtASm1XInXjoY42b3zqGGfGFdw2UxZGmneJrTTYyZ0dxPWEroecxEaogpBSCA=w2400',
     title: "Recipe page",
     demo: "https://oluwa-bowry.github.io/Recipe_Page/",
     code: "https://github.com/Oluwa-bowry/Recipe_Page/settings/pages",
@@ -86,18 +86,18 @@ export const projects = [
   {
     image: "",
     title: "My team page",
-    demo: "",
-    code: "",
+    demo: "https://oluwa-bowry.github.io/Team_Page/",
+    code: "https://github.com/Oluwa-bowry/Team_Page",
     programmingLanguage: "#HTML #CSS #responsive",
     description: "In this project, I work with HTML and CSS to create a responsive\
     page. The design is from devchallenge.io. The blog entails the \
     step by step processs involving in making a cheesecake.",
   },
   {
-    image: "",
+    image: "https://lh3.googleusercontent.com/WdB23aAgMEz88hsXDR85bwt5RhUQfo-YlaKnSHMB8LmIhXtq60IcSG1DzlSFTuNUHZQCiqrOQdHsMo5BgSVbtKR0rWRmbgz4Ok73kWrTjrz7z1mBrtmit3FP8iCIVQHiSMJgk7xWRA=w2400",
     title: "Interior Consultant",
-    demo: "",
-    code: "",
+    demo: "https://oluwa-bowry.github.io/Interior_Consultant_master/",
+    code: "https://github.com/Oluwa-bowry/Interior_Consultant_master",
     programmingLanguage: "#HTML #CSS #responsive",
     description: "In this project, I work with HTML and CSS to create a responsive\
     page. The design is from devchallenge.io. The blog entails the \
@@ -106,15 +106,15 @@ export const projects = [
   {
     image: "",
     title: "404 Not Found ",
-    demo: "",
-    code: "",
+    demo: "https://oluwa-bowry.github.io/ERROR-404/",
+    code: "https://github.com/Oluwa-bowry/ERROR-404",
     programmingLanguage: "#HTML #CSS #responsive",
     description: "In this project, I work with HTML and CSS to create a responsive\
     page. The design is from devchallenge.io. The blog entails the \
     step by step processs involving in making a cheesecake.",
   },
   {
-    image: "",
+    image: "https://lh3.googleusercontent.com/MEA-J9IgaQK9BaAuOP-5HQdnu4kWYqqB8wuL1-1FBUduBjd81H06AquScQWmSs1lK5KPhhL3HQt6vQZ5DxALrb3RzMQj5N3HrG4RhEsWDirWaHwEm9Cuq2fFP4bRTdBeUskg4JK5Eg=w2400",
     title: "My Gallery",
     demo: "",
     code: "",
@@ -124,7 +124,7 @@ export const projects = [
     step by step processs involving in making a cheesecake.",
   },
   {
-    image: "",
+    image: "https://lh3.googleusercontent.com/O6sb6f7PfAN5OriK5QCe9c0hJiovheFCQiOAIbM6DBmFRe5zU6A0gzYTFWrwp2iygzqH3hLzs5OBx_hjCyn2oAhTpJR-FQVrc_QR6xmMdMtE6H0S3umWdrloZMNyWO_9vCY_5lj-AA=w2400",
     title: "Checkout page",
     demo: "",
     code: "",
@@ -136,8 +136,8 @@ export const projects = [
   {
     image: "",
     title: "Edie homepage",
-    demo: "",
-    code: "",
+    demo: "https://oluwa-bowry.github.io/Edie_Homepage/",
+    code: "https://github.com/Oluwa-bowry/Edie_Homepage",
     programmingLanguage: "#HTML #CSS #responsive",
     description: "In this project, I work with HTML and CSS to create a responsive\
     page. The design is from devchallenge.io. The blog entails the \
@@ -191,7 +191,7 @@ export const blogs = [
 
 export const details = [
   {
-    image: "",
+    image: "https://lh3.googleusercontent.com/4aJl2M9R1i1xNNIRyzeDyvpEjZVEYQLVkMAlfuuhj26BK0BoCpmflIaWvxyn_1VRop155SiCCxXmEwX28oN7_GD5CKTmC_unSr1F1ZDg7YHy8EMUKaRFBAds4USDM4-A0fefXZQ5RA=w2400",
     mail: "igeoluwabori@gmail.com",
     number: "+234-703-608-7065",
   },
