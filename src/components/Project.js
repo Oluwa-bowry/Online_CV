@@ -9,7 +9,7 @@ export default function Project () {
       
       <div className="container">
           {projects.map((project) => (
-            <div className="container bg-white justify-center p-4 mb-4 overflow-hidden  shadow-lg rounded-lg flex break-word" key={project.id}>
+            <div className="bg-white p-4 m-4   shadow-lg rounded-lg flex break-word" key={project.id}>
                 <div className='w-1/4 mr-4'><img src ={project.image} className="rounded-lg w-full justify-left items-left"/></div>
                 <div className='w-1/2 ml-2'>
                   <small className="text-xs text-gray-400">{project.programmingLanguage}</small>

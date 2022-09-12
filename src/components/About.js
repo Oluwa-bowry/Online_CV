@@ -19,7 +19,7 @@ export default function About () {
           </div>
       </div>    
 
-      <div className=" display-block item center container">
+      <div className=" display-block  container">
         <Project  />
       </div>
       <div className=" display-block item center container">
