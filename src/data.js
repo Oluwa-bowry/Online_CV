@@ -1,17 +1,48 @@
 
+
 export const skills = [
-  "JavaScript",
-  "React",
-  "Redux",
-  "React Native",
-  "CSS",
-  "Node",
-  "Python Django",
+  {
+    name: "Javascript",
+    progress: "70",
+  },
+  {
+    name:  "React",
+    progress: "70",
+  },
+  {
+    name:  "Redux",
+    progress: "40",
+  },
+  {
+    name: "React Native",
+    progress: "30",
+  },
+  {
+    name: "CSS",
+    progress: "70",
+  },
+  {
+    name: "Node",
+    progress: "30",
+  },
+  {
+    name: "Python Django",
+    progress: "75",
+  },
+  
 ];
 
 export const designs = [
-  "Figma",
-  "Photoshop",
+  {
+    name: "Figma",
+    progress: "75",
+  },
+  {
+    name: "Photoshop",
+    progress: "75",
+  },
+  
+  
 ];
 
 export const experiences = [
@@ -43,11 +74,14 @@ export const experiences = [
 
 export const projects = [
   {
-    image: "",
-    title: "404 Not Found",
-    demo: "",
-    code: "",
+    image: 'https://randomuser.me/api/portraits/men/94.jpg',
+    title: "Recipe page",
+    demo: "https://oluwa-bowry.github.io/Recipe_Page/",
+    code: "https://github.com/Oluwa-bowry/Recipe_Page/settings/pages",
     programmingLanguage: "#HTML #CSS #responsive",
+    description: "In this project, I work with HTML and CSS to create a responsive\
+    page. The design is from devchallenge.io. The blog entails the \
+    step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -71,7 +105,7 @@ export const projects = [
   },
   {
     image: "",
-    title: "Recipe page",
+    title: "404 Not Found ",
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
@@ -114,23 +148,23 @@ export const projects = [
 export const hobbies = [
   {
     image: "",
-    title: "",
+    title: "Gamming",
     description: "",
   },
   {
     image: "",
-    title: "",
+    title: "Cooking",
     description: "",
   },
   {
     image: "",
-    title: "",
+    title: "Sleeping",
     description: "",
   },
   {
     image: "",
-    title: "",
-    description: "",
+    title: "Relaxing",
+    description: "I was to relax and I'm being taken off",
   },
 ];
 
@@ -152,6 +186,14 @@ export const blogs = [
     title: "React and JavaScript",
     description: "",    
     image: "",
+  },
+];
+
+export const details = [
+  {
+    image: "",
+    mail: "igeoluwabori@gmail.com",
+    number: "+234-703-608-7065",
   },
 ];
 

@@ -11,6 +11,7 @@ export default function App() {
   return (
     <main className = "bg-gray-100 ">
       <Webpage />
+      
       {/* <body class="bg-gray-600 flex justify-center items-center h-screen">
       <div class="w-2/3  break-words bg-white shadow-lg rounded-lg
       overflow-hidden">

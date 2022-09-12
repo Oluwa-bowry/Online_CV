@@ -4,13 +4,11 @@ const Progress_bar = ({bgcolor,progress,height}) => {
 	
 	const Parentdiv = {
 		height: height,
-		width: '70%',
+		width: '100%',
 		backgroundColor: 'whitesmoke',
 		borderRadius: 40,
     marginTop: 10,
-    marginBottom: 10,
-   
-    
+    marginBottom: 10,    
 	}
 	
 	const Childdiv = {
@@ -18,14 +16,14 @@ const Progress_bar = ({bgcolor,progress,height}) => {
 		width: `${progress}%`,
 		backgroundColor: bgcolor,
     borderRadius:40,
-		textAlign: 'right'
+		textAlign: 'right',
 	}
 	
 	const progresstext = {
 		padding: 10,
 		color: 'black',
 		fontWeight: 900,
-    display: 'None'
+    display: 'None',
 	}
 		
 	return (
