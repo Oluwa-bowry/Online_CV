@@ -113,9 +113,7 @@ export const projects = [
     demo: "https://oluwa-bowry.github.io/ERROR-404/",
     code: "https://github.com/Oluwa-bowry/ERROR-404",
     programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive\
-    page. The design is from devchallenge.io. The blog entails the \
-    step by step processs involving in making a cheesecake.",
+    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
   {
     image: "https://lh3.googleusercontent.com/MEA-J9IgaQK9BaAuOP-5HQdnu4kWYqqB8wuL1-1FBUduBjd81H06AquScQWmSs1lK5KPhhL3HQt6vQZ5DxALrb3RzMQj5N3HrG4RhEsWDirWaHwEm9Cuq2fFP4bRTdBeUskg4JK5Eg=w2400",
@@ -123,9 +121,7 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive\
-    page. The design is from devchallenge.io. The blog entails the \
-    step by step processs involving in making a cheesecake.",
+    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
   {
     image: "https://lh3.googleusercontent.com/O6sb6f7PfAN5OriK5QCe9c0hJiovheFCQiOAIbM6DBmFRe5zU6A0gzYTFWrwp2iygzqH3hLzs5OBx_hjCyn2oAhTpJR-FQVrc_QR6xmMdMtE6H0S3umWdrloZMNyWO_9vCY_5lj-AA=w2400",
@@ -143,9 +139,7 @@ export const projects = [
     demo: "https://oluwa-bowry.github.io/Edie_Homepage/",
     code: "https://github.com/Oluwa-bowry/Edie_Homepage",
     programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive\
-    page. The design is from devchallenge.io. The blog entails the \
-    step by step processs involving in making a cheesecake.",
+    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
 ];
 
