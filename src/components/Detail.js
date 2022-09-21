@@ -4,10 +4,10 @@ import { details } from '../data';
 
 export default function Details() {
   return (
-    <div className="bg-white m-4 w-full flex flex-col text-left overflow-hidden justify-center shadow-lg items-center rounded-lg break-word p-4">          
+    <div className="bg-white m-4 w-full flex flex-col text-left overflow-hidden justify-center shadow-lg items-center rounded-lg break-word p-4 md:w-full">          
       <div className='mb-6'>
         {details.map((detail) => (
-          <div>
+          <div key={detail.mail}>
               <figure className="">
               <img src ={detail.image} className="rounded-lg h- sm:mx-0 sm:shrink-0"/>
               <figcaption>

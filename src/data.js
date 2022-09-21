@@ -47,24 +47,28 @@ export const designs = [
 
 export const experiences = [
   {
+    id: "001",
     date: "",
     title: "React and JavaScript",
     description: "A blog built on django web framework, enlighten you on smart meters and other related posts.",    
     image: "",
   },
   {
+    id: "002",
     date: "",
     title: "Django ang React",
     description: "A blog built on django web framework, enlighten you on smart meters and other related posts.",
     image: "",
   },
   {
+    id: "003",
     date: "",
     title: "",
     description: "A blog built on django web framework, enlighten you on smart meters and other related posts.",
     image: "",
   },
   {
+    id: "004",
     date: "",
     title: "",
     description: "A blog built on django web framework, enlighten you on smart meters and other related posts.The webpage for users to post review about the implementation of new smart meters.",
@@ -170,18 +174,21 @@ export const hobbies = [
 
 export const blogs = [
   {
+    id: "001",
     url: "",
     title: "How to Organize your CSS",
     description: "",    
     image: "",
   },
   {
+    id: "002",
     url: "",
     title: "React and JavaScript",
     description: "",    
     image: "",
   },
   {
+    id: "003",
     url: "",
     title: "React and JavaScript",
     description: "",    

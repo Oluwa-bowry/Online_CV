@@ -8,7 +8,7 @@ export default function Experience() {
       <h3 className="text-gray-600 text-lg font-bold">Experience</h3>
       <div className="my-2">
         {experiences.map((experience) =>(
-          <div className='display-block p-3' key={experience}>
+          <div className='display-block p-3' key={experience.id}>
               <small>{experience.date}</small>
                <h6 className='font-semibold text-muted pb-4'>{experience.title}</h6>
                <p className='text-sm text-gray-500 pt-2'> {experience.description}</p>              
