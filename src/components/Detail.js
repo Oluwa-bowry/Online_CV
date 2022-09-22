@@ -9,7 +9,7 @@ export default function Details() {
         {details.map((detail) => (
           <div key={detail.mail}>
               <figure className="">
-              <img src ={detail.image} className="rounded-lg h- sm:mx-0 sm:shrink-0"/>
+              <img src ={detail.image} alt="alt" className="rounded-lg h- sm:mx-0 sm:shrink-0"/>
               <figcaption>
                 <h2 className="font-bold text-gray-700 text-2xl  mt-2 ">Oluwabori Ige</h2>
                 <p className='text-sm text-gray-500 pb-4'>Front-end developer</p>
