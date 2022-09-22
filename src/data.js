@@ -83,9 +83,7 @@ export const projects = [
     demo: "https://oluwa-bowry.github.io/Recipe_Page/",
     code: "https://github.com/Oluwa-bowry/Recipe_Page/settings/pages",
     programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive\
-    page. The design is from devchallenge.io. The blog entails the \
-    step by step processs involving in making a cheesecake.",
+    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -93,9 +91,7 @@ export const projects = [
     demo: "https://oluwa-bowry.github.io/Team_Page/",
     code: "https://github.com/Oluwa-bowry/Team_Page",
     programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive\
-    page. The design is from devchallenge.io. The blog entails the \
-    step by step processs involving in making a cheesecake.",
+    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
   {
     image: "https://lh3.googleusercontent.com/WdB23aAgMEz88hsXDR85bwt5RhUQfo-YlaKnSHMB8LmIhXtq60IcSG1DzlSFTuNUHZQCiqrOQdHsMo5BgSVbtKR0rWRmbgz4Ok73kWrTjrz7z1mBrtmit3FP8iCIVQHiSMJgk7xWRA=w2400",
@@ -103,9 +99,7 @@ export const projects = [
     demo: "https://oluwa-bowry.github.io/Interior_Consultant_master/",
     code: "https://github.com/Oluwa-bowry/Interior_Consultant_master",
     programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive\
-    page. The design is from devchallenge.io. The blog entails the \
-    step by step processs involving in making a cheesecake.",
+    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
@@ -129,9 +123,7 @@ export const projects = [
     demo: "",
     code: "",
     programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive\
-    page. The design is from devchallenge.io. The blog entails the \
-    step by step processs involving in making a cheesecake.",
+    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
   {
     image: "",
