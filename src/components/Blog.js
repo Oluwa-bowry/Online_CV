@@ -5,7 +5,7 @@ import {blogs} from '../data.js'
 export default function Blog () {
   return (
     <div>
-      <div className="container m-4 p-2 text-left w-full ">
+      <div className="container  text-left  ">
          <h5 className="bg-white p-4 mb-4 rounded-lg shadow-lg">Blogs ({blogs.length})</h5>
       
       <div className="container">

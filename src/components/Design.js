@@ -4,7 +4,7 @@ import { designs } from '../data';
 
 export default function Design() {
   return (
-    <div className="bg-white px-4 py-4 w-full justify-center overflow-hidden items-center shadow-lg rounded-lg break-word m-4 md: display-None ">
+    <div className="bg-white px-4 py-4 w-full justify-center overflow-hidden items-center shadow-lg rounded-lg break-word ">
     <h3 className="font-bold text-gray-700 text-base uppercase mt-2 text-left ">Design</h3>
     <div className="mt-4">
         {designs.map((design) =>(

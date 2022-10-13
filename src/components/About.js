@@ -11,18 +11,18 @@ export default function About () {
   return (
     <section id="about" className=" big-teal display-block">
       <div className="flex flex-wrap">
-          <div className="flex w-2/3 h-1/4 item center container">
+          <div className="flex sm: w-2/3 h-1/4 p-2 item center container">
             <Skills />        
           </div>
-          <div className="flex w-1/3 h-1/4 item center container">
+          <div className="flex sm: w-1/3 h-1/4 p-2 item center container">
             <Design />   
           </div>
       </div>    
 
-      <div className=" display-block  container">
+      <div className=" display-block  p-2 container">
         <Project  />
       </div>
-      <div className=" display-block item center container">
+      <div className=" display-block p-2 item center container">
         <Blog  />
       </div>
     </section>

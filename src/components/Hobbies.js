@@ -4,7 +4,7 @@ import { hobbies } from '../data';
 
 export default function Hobbies() {
   return (
-    <div className="bg-white overflow-hidden justify-center shadow-lg items-center rounded-lg break-word w-full m-4 p-4 h-1/3 display-block">
+    <div className="bg-white overflow-hidden justify-center shadow-lg items-center rounded-lg break-word w-full p-2 h-1/3 display-block">
       <h3 className="text-gray-600 text-lg font-bold">Hobbies</h3>
       <div className="my-2">
         {hobbies.map((hobby) =>(          
