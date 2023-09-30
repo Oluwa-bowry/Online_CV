@@ -13,10 +13,10 @@ export default function About () {
   return (
     <section id="about" className=" big-teal display-block">
       <div className="lg:flex sm:flex-wrap">
-          <div className="lg: w-2/3 h-1/4 p-2 item center container">
+          <div className="sm: w-full lg: w-2/3 h-1/4 p-2 item center container">
             <Skills />        
           </div>
-          <div className="lg: w-1/3 h-1/4 p-2 item center container">
+          <div className="sm: w-full lg: w-1/3 h-1/4 p-2 item center container">
             <Design />   
           </div>
       </div>    
