@@ -85,14 +85,14 @@ export const projects = [
     programmingLanguage: "#HTML #CSS #responsive",
     description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
-  {
-    image: "",
-    title: "My team page",
-    demo: "https://oluwa-bowry.github.io/Team_Page/",
-    code: "https://github.com/Oluwa-bowry/Team_Page",
-    programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
-  },
+  // {
+  //   image: "",
+  //   title: "My team page",
+  //   demo: "https://oluwa-bowry.github.io/Team_Page/",
+  //   code: "https://github.com/Oluwa-bowry/Team_Page",
+  //   programmingLanguage: "#HTML #CSS #responsive",
+  //   description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
+  // },
   {
     image: "https://lh3.googleusercontent.com/WdB23aAgMEz88hsXDR85bwt5RhUQfo-YlaKnSHMB8LmIhXtq60IcSG1DzlSFTuNUHZQCiqrOQdHsMo5BgSVbtKR0rWRmbgz4Ok73kWrTjrz7z1mBrtmit3FP8iCIVQHiSMJgk7xWRA=w2400",
     title: "Interior Consultant",
@@ -101,14 +101,14 @@ export const projects = [
     programmingLanguage: "#HTML #CSS #responsive",
     description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
-  {
-    image: "",
-    title: "404 Not Found ",
-    demo: "https://oluwa-bowry.github.io/ERROR-404/",
-    code: "https://github.com/Oluwa-bowry/ERROR-404",
-    programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
-  },
+  // {
+  //   image: "",
+  //   title: "404 Not Found ",
+  //   demo: "https://oluwa-bowry.github.io/ERROR-404/",
+  //   code: "https://github.com/Oluwa-bowry/ERROR-404",
+  //   programmingLanguage: "#HTML #CSS #responsive",
+  //   description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
+  // },
   {
     image: "https://lh3.googleusercontent.com/MEA-J9IgaQK9BaAuOP-5HQdnu4kWYqqB8wuL1-1FBUduBjd81H06AquScQWmSs1lK5KPhhL3HQt6vQZ5DxALrb3RzMQj5N3HrG4RhEsWDirWaHwEm9Cuq2fFP4bRTdBeUskg4JK5Eg=w2400",
     title: "My Gallery",
@@ -125,14 +125,14 @@ export const projects = [
     programmingLanguage: "#HTML #CSS #responsive",
     description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
   },
-  {
-    image: "",
-    title: "Edie homepage",
-    demo: "https://oluwa-bowry.github.io/Edie_Homepage/",
-    code: "https://github.com/Oluwa-bowry/Edie_Homepage",
-    programmingLanguage: "#HTML #CSS #responsive",
-    description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
-  },
+  // {
+  //   image: "",
+  //   title: "Edie homepage",
+  //   demo: "https://oluwa-bowry.github.io/Edie_Homepage/",
+  //   code: "https://github.com/Oluwa-bowry/Edie_Homepage",
+  //   programmingLanguage: "#HTML #CSS #responsive",
+  //   description: "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake.",
+  // },
 ];
 
 export const hobbies = [
@@ -143,7 +143,7 @@ export const hobbies = [
   },
   {
     image: "",
-    title: "Cooking",
+    title: "Reading Books",
     description: "",
   },
   {
@@ -154,33 +154,42 @@ export const hobbies = [
   {
     image: "",
     title: "Relaxing",
-    description: "I was to relax and I'm being taken off",
+    description: "I want to relax and I'm being taken off",
   },
 ];
 
 export const blogs = [
   {
     id: "001",
+    title: 'How do to organize CSS?',
     url: "",
-    title: "How to Organize your CSS",
-    description: "",    
-    image: "",
+    info:
+      "Organizing CSS (Cascading Style Sheets) effectively is crucial for maintaining and scaling your web projects. A well-structured CSS codebase makes it easier to maintain, collaborate on, and extend your styles. Here are some best practices for organizing CSS: <br /> 1. Use a Preprocessor: Consider using a CSS preprocessor like Sass or Less, which offers features like variables, nesting, and mixins to help you write cleaner and more organized code.  <br /> 2. File Structure: <br />   - Organize your CSS files into logical folders or directories. A common structure might include folders for components, layouts, utilities, and vendor-specific styles.<br />    - Group related files together. For example, keep all button styles in one file and typography styles in another."
+      ,
   },
   {
     id: "002",
+    title: 'Reactjs',
     url: "",
-    title: "React and JavaScript",
-    description: "",    
-    image: "",
+    info:
+      'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
   },
   {
     id: "003",
+    title: 'JavaScript',
     url: "",
-    title: "React and JavaScript",
-    description: "",    
-    image: "",
+    info:
+      'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+  },
+  {
+    id: "004",
+    title: 'Connecting React js to Django for web development',
+    url: "",
+    info:
+      'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
   },
 ];
+
 
 export const details = [
   {

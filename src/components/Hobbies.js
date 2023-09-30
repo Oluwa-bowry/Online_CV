@@ -5,8 +5,8 @@ import { hobbies } from '../data';
 export default function Hobbies() {
   return (
     <div className="bg-white overflow-hidden justify-center shadow-lg items-center rounded-lg break-word w-full p-2 h-1/3 display-block">
-      <h3 className="text-gray-600 text-lg font-bold">Hobbies</h3>
-      <div className="my-2">
+      <h3  className="font-bold text-gray-700 text-base uppercase mt-2 text-left ">Hobbies</h3>
+      <div className="p-2">
         {hobbies.map((hobby) =>(          
             <div className='display-block p-3' key={hobby.title}>
                 <small>{hobby.image}</small>

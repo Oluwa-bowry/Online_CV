@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Project from './Project';
+import {blogs} from '../data.js'
 
 //import Progressbar from 'react-bootstrap/ProgressBar';
 
@@ -8,13 +9,14 @@ import Design from './Design';
 import Blog from './Blog';
 
 export default function About () {
+  const [questions, setQuestions] = useState(blogs);
   return (
     <section id="about" className=" big-teal display-block">
-      <div className="flex flex-wrap">
-          <div className="flex sm: w-2/3 h-1/4 p-2 item center container">
+      <div className="lg:flex sm:flex-wrap">
+          <div className="lg: w-2/3 h-1/4 p-2 item center container">
             <Skills />        
           </div>
-          <div className="flex sm: w-1/3 h-1/4 p-2 item center container">
+          <div className="lg: w-1/3 h-1/4 p-2 item center container">
             <Design />   
           </div>
       </div>    
@@ -23,8 +25,12 @@ export default function About () {
         <Project  />
       </div>
       <div className=" display-block p-2 item center container">
-        <Blog  />
-      </div>
+      <h5 className="bg-white p-4 mb-4 rounded-lg shadow-lg">Blogs ({blogs.length})</h5>
+      
+        {questions.map((question) => (
+          <Blog key={question.id} {...question}></Blog>
+        ))}   
+        </div>
     </section>
   )
 }

@@ -5,14 +5,14 @@ import RightPage from './RightPage';
 
 export default function Webpage() {
   return (
-    <div className="container flex font-serif {Montserrat} sm: text-xs">
-      <div className="sm: w-1/3" >
-         <LeftPage />
+    <div className="lg:flex sm:flex-wrap font-serif Montserrat text-xs">
+      <div className="lg:w-1/5 sm:w-full">
+        <LeftPage />
       </div>
-      <div className="">
+      <div className="lg:w-4/5 sm:w-full">
         <RightPage />
-      </div>         
-        
+      </div>
     </div>
+
   )
 }
